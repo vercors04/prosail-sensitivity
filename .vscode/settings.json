@@ -1,5 +1,4 @@
 {
-    "python.defaultInterpreterPath": "${env:CONDA_PREFIX}/python.exe",
     "python.terminal.activateEnvironment": true,
     "editor.formatOnSave": true,
     "jupyter.notebookFileRoot": "${workspaceFolder}"
