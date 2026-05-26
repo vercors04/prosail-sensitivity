@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données lourdes
+data/raw/
+*.csv
+*.tif
+
+# Conda
+.conda/
