@@ -65,11 +65,7 @@ print()
 print()
 
 
-for lai in [0, 0.5, 1, 2, 3]:
-    print(f"\nLAI={lai}")
-    for psoil in np.linspace(0, 1, 5):
-        s = prosail.run_prosail(lai=lai, psoil=psoil, rsoil=1.0, **params)
-        print(f"  psoil={psoil:.2f} : R(819)={s[419]:.4f}  R(1649)={s[1249]:.4f}  NDII={( s[419]-s[1249])/(s[419]+s[1249]):.4f}")
+
 #-----affichage figures-----
 for nom in indices_names:
     fig, ax = plt.subplots(figsize=(8, 5))
