@@ -38,6 +38,10 @@ for val in wl_values:
 print()
 print()
 
+
+
+#-----affichage graph courbes-----
+
 fig, ax = plt.subplots(figsize=(8, 5))
 for lai, couleur in zip(lai_values, couleurs):
         lw = 1.5
@@ -107,7 +111,7 @@ for lai in lai_values:
         ligne += f"{delta:>8.4f}"
     print(ligne)
 
-    # ----- heatmap atténuation -----
+# ----- heatmap atténuation -----
 delta_matrix = np.array([
     [max(resultats[wl][lai]) - min(resultats[wl][lai])
      for wl in wl_values]
